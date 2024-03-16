@@ -1,0 +1,17 @@
++----------------+     +----------------+     +----------------+
+| Travel Package |---->| Destination    |---->| Activity       |
++----------------+     +----------------inerary()+     +----------------+
+| - name         |     | - name         |     | - name         |
+| - passengerCap |     | - activities | | + addActivity(Activity activity) |   |     | - cost         |
+| - itinerary    |     |                 |     | - capacity     |
+| - passengers   | + signUp(Passenger passenger, Activity activity) |
+ |     |                 |     | - description  |
++----------------+     +----------------+     +----------------+| + getPassengers()  | | + getActivities() |     | + getCost() |
+| + getPassengerCap()| | + getActivity(int index) |     | + getDescription() |
+| + addPassenger(Passenger passenger) | | + getActivity(String name) |    
+| + | + getCapacity() |
+| + removePassenger(Passenger passenger) | | + removeActivity print(Activity activity) |
+| + updatePassenger(Passenger passenger) | | + updateActivity(Activity activity) |
++----------------+     +----------------+     +----------------+
+| + printPassengerList() | | + printActivitiesWithSpaces() |
++----------------+     +----------------+     +----------------+
